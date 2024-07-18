@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func TestSqrt() {
 	number := 16.0
 	squareRoot := Sqrt(number)
 	fmt.Printf("The square root of %.2f is %.2f\n", number, squareRoot)
